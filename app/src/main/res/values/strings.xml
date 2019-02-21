@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Troutary</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Troutary</string>
+    <string name="nav_header_subtitle">An app for Rainbow Trout Fisheries Research Station</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="about_Us">
+
+
+    <b>Background</b>
+\n
+        \n
+        Rainbow Trout Fisheries Station (RTFRS) was established in
+        2062 B.S. as Trout Genetic Resource Hatchery Sub-station at
+        Dhunche on former abandoned horticulture farm under agriculture
+        department of ministry of agriculture to Nepal Agriculture Research
+        Council (NARC) and Fisheries Development directorate by using the
+        cold water of Trisuli river through canal from Ghatte-khola to
+        conduct research on rainbow trout and indigenous aquatic species.
+        Since its establishment, this sub-station has worked on extending
+        rainbow trout farming, improve hatchability and breeding of trout
+        fulfill the demand of trout fingerlings and research on germpalsm
+        maintenance of trout. With increasing trend in cold water fish farming
+        at temperate region, this sub-station was developed as Agriculture
+        Research Station (Fisheries) in 2072 Kartik 12 under Nepal Agriculture
+        Research Council for technology generation through research on rainbow
+        trout and cold water aquatic species. Later, in fiscal year 2072/73,
+        this station was renamed as Rainbow Trout Fisheries Research Station.
+        This station lies at Dhunche-8 of Rasuwa district at an altitude of
+        approx. 1850 masl.
+\n
+       \n
+        \n
+        <b>Goal</b>
+\n
+        \n
+
+        Enhance livelihood and food security of the nation with increase in production
+        and productivity of cold water aquatic species.
+
+\n
+        \n
+        \n
+        <b>Objectives</b>
+\n
+        \n
+The overall objective of this station is to improve the general living condition of the
+        farmers of Rasuwa district through increase in fisheries productivity. However the
+        specific objective s are:
+\n
+1.      To conduct research on various aspects of rainbow trout and other aquatic species.
+\n
+2.      To increase the production and productivity of rainbow trout farming and other aquatic species.
+\n
+3.      To introduce, evaluate and promote productive aquatic species of temperature region
+\n
+4.      To develop sustainable aquaculture resource management and production technologies at temperate region.
+\n
+\n
+\n
+<b>Strategies
+    \n
+
+</b> \n 1.      Identification and selection of appropriate techniques for rainbow trout farming and other aquatic
+        species at temperate region
+\n
+2.      Research on aquaculture at temperate region
+\n
+3.      Verification of rainbow trout in temperate region
+\n
+
+\n
+        \n
+        \n
+        \n
+
+       </string>
+    <string name="title_activity_forms">forms</string>
+    <string name="title_activity_fisheries">Fisheries</string>
+    <string name="fisheries">
+        <b><u>Rainbow Trout Fish</u></b>
+        \n \n <b>Requirements </b>
+ \n \n 1.Water quality and quantity
+
+\n Type: clean and cold
+\n Temperature: 10 to 20 degree C
+\n PH value: 6.5-8.0
+\n Oxygen: above 8 mg/L
+\n Water supply: 5 L/sec
+\n \n
+\n 2.Hatchery
+
+\n Compartment: 36* 35 cm
+\n Height: 36+4 cm
+\n Length: 215 cm
+\n \n
+\n 3.Ponds
+
+\n Shape: elongated rectangle
+\n Made of: concrete and cement
+\n Dimension: 4m* 0.9m*0.5m (depth 0.3 m)
+\n Water capacity: 1 ton
+\n Fry capacity: 15-20 thousand fry
+        \n
+    </string>
+    <string name="registration">Registration Form</string>
+    <string name="internship">Internship Application</string>
+    <string name="spinner_title">Nature of raceway</string>
+
+</resources>

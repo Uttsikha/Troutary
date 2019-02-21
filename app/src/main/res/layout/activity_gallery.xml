@@ -1,0 +1,24 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:src="@drawable/pica" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:src="@drawable/picb" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/picc" />
+
+
+        </LinearLayout>
+    </ScrollView>

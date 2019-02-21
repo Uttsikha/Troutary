@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration_Form"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+        android:id="@+id/farmname"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Farm Name"
+        android:textSize="25sp"
+        android:inputType="text"
+        android:padding="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#000000"
+        />
+     <EditText
+         android:id="@+id/proprietor"
+
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Proprietor"
+        android:textSize="25sp"
+        android:padding="5dp"
+        android:inputType="text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#000000"
+        />
+
+    <EditText
+            android:id="@+id/citizenship"
+            android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:maxLength="12"
+        android:hint="Citizenship number"
+        android:inputType="number"
+        android:padding="5dp"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/emailid"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:hint="Email id"
+            android:inputType="textEmailAddress"
+            android:padding="5dp"
+
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/location"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:inputType="text"
+            android:textSize="25sp"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#000000"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+>        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ward no:"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+
+            android:textColor="#000000"
+            />
+        <Spinner
+            android:id="@+id/ward"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:prompt="@string/spinner_title"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"><TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VDC:"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+
+            android:textColor="#000000"
+            />
+        <Spinner
+            android:id="@+id/vdc"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:prompt="@string/spinner_title"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+        <TextView
+            android:id="@+id/noofraceway"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="No of raceway:"
+            android:textSize="25sp"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#000000"
+            />
+        <Spinner
+            android:id="@+id/no"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:prompt="@string/spinner_title"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            >
+
+        <TextView
+            android:id="@+id/natureoffarm"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Nature of farm:"
+            android:textSize="25sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#000000"
+            />
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:prompt="@string/spinner_title"/>
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Submit"
+        android:onClick="registered"/>
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

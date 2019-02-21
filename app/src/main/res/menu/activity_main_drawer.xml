@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/home"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_fisheries"
+            android:icon="@drawable/fishes"
+            android:title="Fisheries" />
+        <item
+            android:id="@+id/nav_form"
+            android:icon="@drawable/forms"
+            android:title="Registration Form" />
+        <item
+            android:id="@+id/nav_application"
+            android:icon="@drawable/forms"
+            android:title="Internship Application" />
+    </group>
+
+
+</menu>
